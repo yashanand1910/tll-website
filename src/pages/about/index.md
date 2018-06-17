@@ -1,19 +1,26 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: Who are we?
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+_The Liberation League_ is a grassroot civil rights organisation in India, dedicated to advocate for the causes of social justice and social equality between (but not limited to) all genders, races, castes, class, and species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### The Personal is the Political or The Private is the Political
+We recognise that individual or personal experiences are connected to larger political and social structures and that only social change and dismantling systemic forms of oppression is the key for total liberation.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Intersectional Feminist Theory - Black Feminist Theory
+We support and recognise the analytical framework provided by legal scholar and race theorist Kimberlé Crenshaw on gender construction and its relation to race and other social factors in her work _Mapping the Margins: Intersectionality, Identity Politics and Violence against Women of Color._
+The Liberation League rejects the single axis frameworks adopted by mainstream social justice movements which ignores the experiences of those at the intersection of systems of oppressions.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Social Construction as the basis of Disadvantage, Disability and Privilege
+We believe that the manner in which society is organised and valuation of abilities, capabilities, interests and other characteristics is the cause for the existing disadvantages and disabilities faced by marginalised groups, and not inherent biological or anthropological factors.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Recognising 'Privilege'
+_Privilege_ is a set of unearned advantages or benefits given to a certain social group, who possess characteristics, capabilities, traits valued by the dominant classes and we believe that recognition of privilege and breaking the network of privilege is the first step towards total liberation.
+
+### Veganism is a Moral Imperative
+Besides a category of animals who receive statutory protection in our laws, non-human animals are the 'property' of human beings, and hence, can be bred and used for commercial purposes. Animals being considered human property accords them only instrumental value, and does not account for their own intrinsic moral worth. Animals who exist to serve as human resources are offered little protection under the law and have no moral consideration of their own and instead exist as a means to an end and not ends in themselves. To take the actual interests of animals into account, they must be declared as living persons with the right not to be owned by others and to exist as independent beings of moral worth.
+The Liberation League exists to advocate for interests of non - human persons by means of educational _Anti-Speciesism_ advocacy and by promoting _veganism_.
+
+### Total Liberation
+Anti-Oppression advocacy and dialogue between people of diverse backgrounds is necessary to break the effects of the _otherisation_ of marginalised groups, and to achieve _total liberation_.

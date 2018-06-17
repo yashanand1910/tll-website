@@ -1,11 +1,36 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@mixin font-face($family, $filename, $weight, $style)
+  @font-face
+    font-family: $family
+    src: url('#{$filename}.ttf') format("truetype")
+    font-weight: $weight
+    font-style: $style
+
+// Import local fonts
+@include font-face("Playfair", fonts/Playfair_Display/PlayfairDisplay-Regular, normal, normal);
+@include font-face("Playfair", fonts/Playfair_Display/PlayfairDisplay-Italic, normal, italic);
+@include font-face("Playfair", fonts/Playfair_Display/PlayfairDisplay-Bold, bold, normal);
+@include font-face("Playfair", fonts/Playfair_Display/PlayfairDisplay-BoldItalic, bold, italic);
+@include font-face("Playfair", fonts/Playfair_Display/PlayfairDisplay-Black, 500, normal);
+@include font-face("Playfair", fonts/Playfair_Display/PlayfairDisplay-BlackItalic, 500, italic);
 
 // Config vars
-$kaldi-red: #FD461E
-$kaldi-red-invert: #fff
+$pastel-pink-dark: #c46c7d
+$pastel-pink: #d8acb3
+$invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $pastel-pink-dark
+$primary-light: $pastel-pink
+$primary-invert: $invert
+
+*
+  font-family: Playfair;
+
+body, html
+  overflow: hidden
 
 .content .taglist
   list-style: none
@@ -21,6 +46,8 @@ $primary-invert: $kaldi-red-invert
     padding: 0 2rem 1rem 0
     margin-bottom: 1.5rem
     margin-top: 0
+.box
+  box-shadow: 0 !important
 
 // Helper Classes
 .full-width-image-container
@@ -29,7 +56,7 @@ $primary-invert: $kaldi-red-invert
   position: relative
   left: 50%
   right: 50%
-  margin: 5em -50vw
+  margin: 0em -50vw
   background-size: cover
   background-position: bottom
   display: flex
@@ -38,5 +65,8 @@ $primary-invert: $kaldi-red-invert
 
 .margin-top-0
   margin-top: 0 !important
+
+.margin-top-100
+  margin-top: 100px !important
 
 @import "~bulma"
