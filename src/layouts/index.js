@@ -10,6 +10,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="The Liberation League" />
     <Navbar />
     <div>{children()}</div>
+    <footer><small>Developed by <a href="http://yashanand.work" target="_blank">Yash Anand</a></small></footer>
   </div>
 )
 

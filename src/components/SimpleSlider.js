@@ -28,7 +28,7 @@ export default class SimpleSlider extends Component {
                     <strong>The Privilege Talk</strong>
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet.
+                    Theprivilegetalk is a series of educational lectures and workshops.
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ export default class SimpleSlider extends Component {
                     <strong>The Privilege Talk</strong>
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet.
+                    Theprivilegetalk is a series of educational lectures and workshops
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default class SimpleSlider extends Component {
                     <strong>The Privilege Talk</strong>
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet.
+                    Theprivilegetalk is a series of educational lectures and workshops
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default class SimpleSlider extends Component {
                     <strong>The Privilege Talk</strong>
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet.
+                    Theprivilegetalk is a series of educational lectures and workshops
                   </p>
                 </div>
               </div>
