@@ -21,6 +21,9 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-end">
+        <Link className="navbar-item" to="/tags">
+          Search
+        </Link>
         <Link className="navbar-item" to="/admin">
           Login
         </Link>

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import Link from 'gatsby-link'
 import Slider from "react-slick";
+import logo from '../img/privilege-talk.jpg';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -13,22 +15,22 @@ export default class SimpleSlider extends Component {
       pauseOnHover: true
     };
     return (
-      <div>
+      <div className="is-hidden-mobile">
         <Slider {...settings}>
           <div className="box">
             <article className="media">
-              <div className="media-left">
+              <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image"/>
+                  <img src={`${logo}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">
                 <div className="content">
                   <h4>
-                    <strong>The Privilege Talk</strong>
+                    <strong><Link to={'/events'}>The Privilege Talk</Link></strong>
                   </h4>
                   <p>
-                    Theprivilegetalk is a series of educational lectures and workshops.
+                    A series of educational lectures and workshops.
                   </p>
                 </div>
               </div>
@@ -36,18 +38,18 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="box">
             <article className="media">
-              <div className="media-left">
+              <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image"/>
+                  <img src={`${logo}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">
                 <div className="content">
                   <h4>
-                    <strong>The Privilege Talk</strong>
+                    <strong><Link to={'/events'}>The Privilege Talk</Link></strong>
                   </h4>
                   <p>
-                    Theprivilegetalk is a series of educational lectures and workshops
+                    A series of educational lectures and workshops
                   </p>
                 </div>
               </div>
@@ -55,18 +57,18 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="box">
             <article className="media">
-              <div className="media-left">
+              <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image"/>
+                  <img src={`${logo}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">
                 <div className="content">
                   <h4>
-                    <strong>The Privilege Talk</strong>
+                    <strong><Link to={'/events'}>The Privilege Talk</Link></strong>
                   </h4>
                   <p>
-                    Theprivilegetalk is a series of educational lectures and workshops
+                    A series of educational lectures and workshops
                   </p>
                 </div>
               </div>
@@ -74,18 +76,18 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="box">
             <article className="media">
-              <div className="media-left">
+              <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image"/>
+                  <img src={`${logo}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">
                 <div className="content">
                   <h4>
-                    <strong>The Privilege Talk</strong>
+                    <strong><Link to={'/events'}>The Privilege Talk</Link></strong>
                   </h4>
                   <p>
-                    Theprivilegetalk is a series of educational lectures and workshops
+                    A series of educational lectures and workshops
                   </p>
                 </div>
               </div>

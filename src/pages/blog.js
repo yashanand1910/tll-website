@@ -1,29 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import jumbotron from '../img/jumbotron.jpg'
-import logo from '../img/logo.jpg'
-import SimpleSlider from '../components/SimpleSlider'
 
-export default class IndexPage extends React.Component {
+export default class BlogPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div>
-      <div
-        className="full-width-image-container margin-top-0"
-        style={{ backgroundImage: `url(${jumbotron})` }}
-      >
-      </div>
-      <section className="section">
-        <div className="container">
+      <section className="section section--gradient">
+        <div className="section">
           <div className="columns">
           <div className="column is-10 is-offset-1">
-            <SimpleSlider/>
-            <div className="content margin-top-100">
-              <h1 className="has-text-weight-bold is-size-2">Recent Stories</h1>
+            <div className="content">
+              <h1 className="has-text-weight-bold is-size-2">The Blog</h1>
             </div>
             {posts
               .map(({ node: post }) => (
@@ -46,17 +36,15 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
-              <h3><Link to={'/blog'}>See all posts...</Link></h3>
-            </div>
-            </div>
+          </div>
+          </div>
         </div>
       </section>
-      </div>
     )
   }
 }
 
-IndexPage.propTypes = {
+BlogPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -65,9 +53,8 @@ IndexPage.propTypes = {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query BlogQuery {
     allMarkdownRemark(
-      limit: 2,
       sort: { order: DESC, fields: [frontmatter___date] },
       filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
     ) {
