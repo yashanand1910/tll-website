@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 
 export const EventsPageTemplate = ({
   image,
@@ -12,8 +11,7 @@ export const EventsPageTemplate = ({
   intro,
   main,
   testimonials,
-  fullImage,
-  pricing,
+  fullImage
 }) => (
   <section className="section section--gradient">
       <div className="section">
@@ -137,8 +135,6 @@ export const eventsPageQuery = graphql`
             image
             text
           }
-          heading
-          description
         }
         main {
           heading
