@@ -42,7 +42,7 @@ main:
     image: /img/public-speaking-pure-nootropics.jpg
   image3:
     alt: Image description
-    image: ''
+    image: /img/getty_501062623_74816.jpg
 testimonials:
   - author: Someone Famous
     quote: Some good quote by someone famous
