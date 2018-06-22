@@ -36,13 +36,13 @@ main:
     events over here.
   image1:
     alt: Image description
-    image: /img/events-grid3.jpg
+    image: /img/public-speaking-pure-nootropics.jpg
   image2:
     alt: Image description
-    image: /img/events-grid3.jpg
+    image: /img/public-speaking-pure-nootropics.jpg
   image3:
     alt: Image description
-    image: /img/events-grid1.jpg
+    image: ''
 testimonials:
   - author: Someone Famous
     quote: Some good quote by someone famous
