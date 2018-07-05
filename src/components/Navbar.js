@@ -24,9 +24,9 @@ const Navbar = () => (
         <Link className="navbar-item" to="/tags">
           Search
         </Link>
-        <Link className="navbar-item" to="/admin">
+        <a className="navbar-item" href="https://theliberationleague.org/admin">
           Login
-        </Link>
+        </a>
       </div>
     </div>
   </nav>
