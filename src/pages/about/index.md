@@ -4,7 +4,23 @@ title: Who are we?
 ---
 _The Liberation League_ is a grassroots civil rights organisation established in Pune, India, dedicated to advocate for the causes of social justice and social equality between (but not limited to) all genders, races, castes, class, and species. 
 
-<!-- # \*\*First Principles\*\* -->
+## Mission
+
+The Liberation League wishes to forge the revolution of the Twenty First century, one which seeks to dismantle all forms of existing social inequalities, social hierarchies and power systems including the oppression of nonhuman persons, and the domination of Earth. 
+
+Comprising of social justice advocates from various backgrounds and perspectives, we undertake educational projects at the grassroots level to educate the masses about existing social injustices and  disenfranchisement of marginalised groups and to create new mechanisms to fight for true liberation from oppressive social hierarchies. 
+
+We wish to build a movement for liberation that acknowledges the hierarchical interconnectedness between the oppression of social disadvantaged groups, the commonalities between various systems of power and how they interact to maintain various networks of privileges,i,e, unmerited benefits given to a group of people who belong to a particular social group, resulting in institutionalised social inequality between various groups. 
+
+
+
+Inequality is made possible, is a socially created body, a function rather than a biological or 'natural' phenomenon; a lot of intellectual labour and scrutiny has gone behind making oppression seem like a natural state of affairs. Criterion like species, race, gender, sex, ability or age are irrelevant for the determination of allocation of resources, rights and value, yet these factors have been heavily relied on by dominant groups to mark themselves from those unlike them and to forcefully disallow such groups from holding institutional power, leading to oppressive practices, ideas and homogenisation of disadvantaged groups. 
+
+
+
+It is to be recognised that our mainstream social justice movements operate on these invisible social hierarchies, the very same systems that create oppressive and violent  attitudes. 
+
+<!-- # \\*\\*First Principles\\*\\* -->
 
 ### The Personal is the Political or The Private is the Political
 
