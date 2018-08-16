@@ -1,6 +1,6 @@
 # The Liberation League's Website
 
-This repo contains The Liberation League's website that is built with [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org).
+This repo contains [The Liberation League's website](https://theliberationleague.org) that is built with [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org).
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
