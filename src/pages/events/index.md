@@ -49,7 +49,7 @@ main:
       Home for All'.
     image: /img/36369117_972494642925444_1144097283843817472_n.jpg
   image3:
-    alt: Image description
+    alt: ''
     image: /img/36264276_972494676258774_2991293543110148096_n.jpg
 testimonials:
   - author: Someone Famous
