@@ -51,11 +51,7 @@ main:
   image3:
     alt: ''
     image: /img/36264276_972494676258774_2991293543110148096_n.jpg
-testimonials:
-  - author: Someone Famous
-    quote: Some good quote by someone famous
-  - author: Someone Famous
-    quote: Some testimony by someone famous
+testimonials: []
 full_image: /img/untitled-design.png
 ---
 
