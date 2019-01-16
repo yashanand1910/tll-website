@@ -22,6 +22,19 @@ intro:
         in transforming the minds of children to work towards a sustainable,
         accommodating world and to reject oppressive and limiting beliefs about
         oppression.
+    - image: /img/36281323_972494842925424_3523616789118320640_n.jpg
+      text: >-
+        The Liberation League organised an animal rights workshop at SOS
+        Children's Village Pune for a group of 40 children.
+
+        A skit was performed by the volunteers of the Liberation League, and a
+        Poster Making Activity was organised for the students to express their
+        views on animal rights and building a peaceful, sustainable world for
+        all. 
+
+        We are extremely happy to announce that we received a great response
+        from all the students, who vowed to speak up against the worldwide
+        exploitation of non-human persons. 
   heading: Towards A Free World
   description: ''
 main:
