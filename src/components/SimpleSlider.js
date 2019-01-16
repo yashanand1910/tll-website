@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Link from 'gatsby-link'
 import Slider from "react-slick";
-import logo from '../img/privilege-talk.jpg';
+import logo1 from '../img/privilege-talk.jpg';
+import logo2 from '../img/workshop.png';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -21,16 +22,16 @@ export default class SimpleSlider extends Component {
             <article className="media">
               <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src={`${logo}`} alt="Image"/>
+                  <img src={`${logo2}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">
                 <div className="content">
                   <h4>
-                    <strong><Link to={'/events'}>The Privilege Talk</Link></strong>
+                    <strong><Link to={'/events'}>Workshop at SOS Children's Village</Link></strong>
                   </h4>
                   <p>
-                    A series of educational lectures and workshops.
+                    Animal rights workshop for a group of 40 children.
                   </p>
                 </div>
               </div>
@@ -40,26 +41,7 @@ export default class SimpleSlider extends Component {
             <article className="media">
               <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src={`${logo}`} alt="Image"/>
-                </figure>
-              </div>
-              <div className="media-content">
-                <div className="content">
-                  <h4>
-                    <strong><Link to={'/events'}>The Privilege Talk</Link></strong>
-                  </h4>
-                  <p>
-                    A series of educational lectures and workshops
-                  </p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div className="box">
-            <article className="media">
-              <div className="media-left is-hidden-tablet-only">
-                <figure className="image is-128x128">
-                  <img src={`${logo}`} alt="Image"/>
+                  <img src={`${logo1}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">
@@ -78,7 +60,26 @@ export default class SimpleSlider extends Component {
             <article className="media">
               <div className="media-left is-hidden-tablet-only">
                 <figure className="image is-128x128">
-                  <img src={`${logo}`} alt="Image"/>
+                  <img src={`${logo2}`} alt="Image"/>
+                </figure>
+              </div>
+              <div className="media-content">
+                <div className="content">
+                  <h4>
+                    <strong><Link to={'/events'}>Workshop at SOS Children's Village</Link></strong>
+                  </h4>
+                  <p>
+                    Animal rights workshop for a group of 40 children.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div className="box">
+            <article className="media">
+              <div className="media-left is-hidden-tablet-only">
+                <figure className="image is-128x128">
+                  <img src={`${logo1}`} alt="Image"/>
                 </figure>
               </div>
               <div className="media-content">

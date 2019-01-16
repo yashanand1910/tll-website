@@ -19,7 +19,7 @@ export const EventsPageTemplate = ({
           <div className="column is-10 is-offset-1">
             <div className="content">
               <div className="columns">
-                <div className="column is-7">
+                <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
@@ -28,7 +28,7 @@ export const EventsPageTemplate = ({
               </div>
               <Features gridItems={intro.blurbs} />
               <div className="columns">
-                <div className="column is-7">
+                <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
@@ -68,7 +68,7 @@ export const EventsPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
+              {/* <Testimonials testimonials={testimonials} /> */}
             </div>
           </div>
         </div>
@@ -151,10 +151,6 @@ export const eventsPageQuery = graphql`
             alt
             image
           }
-        }
-        testimonials {
-          author
-          quote
         }
         full_image
       }
